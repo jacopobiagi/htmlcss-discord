@@ -128,7 +128,7 @@ main > div{
 .container{
     display: flex;
     height: 80%;
-    width: 60%;
+    width: 75%;
 }
 
 .blueContent{
@@ -219,48 +219,75 @@ h2{
     display: flex;
     height: 90%;
     width: 60%;
-    padding-top: 10px;
+    padding-top: 70px;
 }
 
 .pinkLastContent{
     width: 34%;
     height: 100%;
-    background-color: rgb(240, 128, 128);
     margin: 0;
-    border: 2px dashed black;
+}
+
+.colorFooter{
+    color: rgb(114, 137, 218);
+    margin: 0 0 10px 0;
+
+}
+
+.language{
+    margin: 3%;
+}
+
+.social{
+    display: flex;
+    margin-top: 10px;
+}
+
+.divSocial{
+    color: white;
+}
+
+.social > i{
+    margin-left: 0;
+    margin-right: 14px;
 }
 
 .forLightblueLastContent{
     display: flex;
     width: 66%;
     height: 100%;
-    border: 2px dashed black;
+    color: white;
 }
 
 .lightblueLastContent{
     height: 100%;
     width: 25%;
-    background-color: rgb(32, 178, 170);
-    border: 2px dashed rgb(255, 255, 255);
     margin: 0;
+}
+
+h5{
+    margin: 0 0 10px 0;
 }
 
 .lastDiv > div{
     width: 60%;
     height: 80%;
-    background-color: rgb(101, 194, 163);
     margin-bottom: 0;
+    border-top: 1px solid rgb(114, 137, 218);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .bottomContent{
-    margin: auto 0;
-    height: 45%;
-    background-color: rgb(198, 143, 152);
-    border: 2px dashed black;
     display: flex;
+    background-color: rgb(114, 137, 218);
+    color: white;
+    width: 15%;
+    height: 70%;
+    border-radius: 25px;
+    font-size: 100%;
+    margin: 0;
 }
  
 #logo{
